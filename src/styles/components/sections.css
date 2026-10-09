@@ -1,0 +1,7 @@
+.sections {
+    margin-block-start: var(--space-xl);
+
+    & > * + * {
+        margin-block-start: var(--space-xl);
+    }
+}
