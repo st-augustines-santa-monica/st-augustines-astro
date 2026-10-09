@@ -19,5 +19,7 @@
 
 /** Main */
 @import "components/bg-image.css" layer(main);
+@import "components/button-link.css" layer(main);
 @import "components/heading.css" layer(main);
 @import "components/sections.css" layer(main);
+@import "components/with-icon.css" layer(main);

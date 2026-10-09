@@ -1,0 +1,10 @@
+/* Add to a parent wrapper containing a Font Awesome icon or svg */
+.with-icon {
+    & svg {
+        fill: currentColor;
+        position: relative;
+        width: var(--icon-size, 1em);
+        height: var(--icon-size, 1em);
+        top: 1px;
+    }
+}
